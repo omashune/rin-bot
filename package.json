@@ -1,0 +1,18 @@
+{
+  "name": "rin-bot",
+  "version": "1.0.0",
+  "description": "Бот для управления серверами Minecraft через RCON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "omashune",
+  "license": "ISC",
+  "dependencies": {
+    "logplease": "^1.2.15",
+    "lowdb": "^1.0.0",
+    "rcon-ts": "^1.2.3",
+    "vk-io": "^4.0.0-rc.30"
+  }
+}

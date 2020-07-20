@@ -1,0 +1,33 @@
+{
+  "servers": [
+    {
+      "name": "srv-1",
+      "host": "localhost",
+      "port": 25575,
+      "password": "password",
+      "blocked": [
+        "op",
+        "deop",
+        "ban"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "userId": 279219906,
+      "servers": [
+        "srv-1"
+      ],
+      "permissions": [
+        "servers.use",
+        "users.add",
+        "users.remove",
+        "permissions.add",
+        "permissions.remove",
+        "servers.add",
+        "servers.remove",
+        "system.reload"
+      ]
+    }
+  ]
+}
