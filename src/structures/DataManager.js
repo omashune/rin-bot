@@ -55,7 +55,7 @@ module.exports = class DataManager {
         users()
             .push({
                 userId,
-                server: [],
+                servers: [],
                 permissions: []
             })
             .write();
